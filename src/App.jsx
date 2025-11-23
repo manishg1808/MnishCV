@@ -122,27 +122,35 @@ function App() {
         <div className={`contact-info ${showContact ? "show" : ""}`}>
           <div className="contact-grid">
             <div className="contact-grid-item">
-              <span>📞 +91-8092970688</span>
-            </div>
-            <div className="contact-grid-item">
-              <span>☎️ +91-8986010819</span>
+              <span>
+                <i className="ri-phone-line"></i> +91-8092970688
+              </span>
             </div>
             <div className="contact-grid-item">
               <span>
-                📧 Email:{" "}
+                <i className="ri-whatsapp-line"></i> +91-8986010819
+              </span>
+            </div>
+            <div className="contact-grid-item">
+              <span>
+                <i className="ri-mail-line"></i> Email:{" "}
                 <a href="mailto:mnishg49@gmail.com">mnishg49@gmail.com</a>
               </span>
             </div>
             <div className="contact-grid-item">
-              <span>📍 Delhi (NCR)</span>
+              <span>
+                <i className="ri-map-pin-line"></i> Delhi (NCR)
+              </span>
             </div>
             <div className="contact-grid-item portfolio-item" onClick={() => setShowPortfolioModal(true)}>
-              <span className="portfolio-text">Portfolio</span>
+              <span className="portfolio-text">
+                <i className="ri-folder-line"></i> Portfolio
+              </span>
             </div>
           </div>
           <div className="contact-row contact-row-no-wrap">
             <span>
-              🔗 LinkedIn:{" "}
+              <i className="ri-linkedin-line"></i> LinkedIn:{" "}
               <a
                 href="https://www.linkedin.com/in/er-mnish-kumar-8227572b8/"
                 target="_blank"
@@ -152,7 +160,7 @@ function App() {
               </a>
             </span>
             <span>
-              🔗 GitHub:{" "}
+              <i className="ri-github-line"></i> GitHub:{" "}
               <a
                 href="https://github.com/manishg1808/MnishCV"
                 target="_blank"
