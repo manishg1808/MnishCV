@@ -123,12 +123,23 @@ function App() {
           <div className="contact-grid">
             <div className="contact-grid-item">
               <span>
-                <i className="ri-phone-line"></i> +91-8092970688
+                <i className="ri-phone-line"></i>{" "}
+                <a href="tel:+918092970688" style={{ color: "#000", textDecoration: "none" }}>
+                  +91-8092970688
+                </a>
               </span>
             </div>
             <div className="contact-grid-item">
               <span>
-                <i className="ri-whatsapp-line"></i> +91-8986010819
+                <i className="ri-whatsapp-line"></i>{" "}
+                <a 
+                  href="https://wa.me/918986010819" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#000", textDecoration: "none" }}
+                >
+                  +91-8986010819
+                </a>
               </span>
             </div>
             <div className="contact-grid-item">
@@ -972,6 +983,31 @@ function App() {
                     </svg>
                   </span>
                   <span className="service-text">WordPress Development</span>
+                </div>
+                <div className="service-item">
+                  <span className="service-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/>
+                    </svg>
+                  </span>
+                  <span className="service-text">Frontend Development</span>
+                </div>
+                <div className="service-item">
+                  <span className="service-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M20 6c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V6zm0 8c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4z"/>
+                      <path d="M8 8h2v2H8zm0 10h2v2H8zm10-10h2v2h-2zm0 10h2v2h-2z"/>
+                    </svg>
+                  </span>
+                  <span className="service-text">Backend Development</span>
+                </div>
+                <div className="service-item">
+                  <span className="service-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14zm-2.17-1.5l2.14-1.53 2.14 1.53-.83-2.46 2.15-1.5h-2.62L9.47 6l-.81 2.54H6.04l2.14 1.5-.83 2.46z"/>
+                    </svg>
+                  </span>
+                  <span className="service-text">SEO</span>
                 </div>
               </div>
             </div>

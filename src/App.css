@@ -116,12 +116,37 @@ a {
     overflow-wrap: break-word;
     display: inline;
     max-width: 100%;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.contact-grid-item a:hover {
+    color: #2d5016;
+    text-decoration: underline;
+}
+
+.contact-grid-item:nth-child(3) a {
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
+/* Make phone and WhatsApp items clickable */
+.contact-grid-item:nth-child(1) span,
+.contact-grid-item:nth-child(2) span {
+    cursor: pointer;
 }
 
 /* Specific styling for email item to prevent wrapping */
 .contact-grid-item:nth-child(3) {
     min-width: fit-content;
     padding: 0 4px;
+    white-space: nowrap;
+}
+
+.contact-grid-item:nth-child(3) span {
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    word-break: keep-all;
 }
 
 .portfolio-item {
