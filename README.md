@@ -45,7 +45,7 @@ A professional, responsive online resume built with React and Vite, featuring a 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/manishg1808/MnishCV
 cd ManishCV
 ```
 
@@ -117,5 +117,5 @@ This project is for personal/portfolio use.
 **Developed by**: Manish Kumar  
 **Contact**: mnishg49@gmail.com  
 **LinkedIn**: [Profile](https://www.linkedin.com/in/er-mnish-kumar-8227572b8/)  
-**GitHub**: [Profile](https://github.com/dashboard)
+**GitHub**: [Profile](https://github.com/manishg1808/MnishCV)
 
