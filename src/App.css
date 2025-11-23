@@ -66,6 +66,9 @@ a {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    max-width: 100%;
+    overflow-x: hidden;
+    word-wrap: break-word;
 }
 
 .contact-grid {
@@ -74,8 +77,8 @@ a {
     gap: 8px;
     justify-items: center;
     align-items: center;
-    white-space: nowrap;
     width: 100%;
+    max-width: 100%;
 }
 
 .contact-grid-item {
@@ -84,19 +87,22 @@ a {
     justify-content: center;
     font-size: 15px;
     color: #000;
-    white-space: nowrap;
     padding: 0 2px;
     margin: 0;
     min-width: 0;
     overflow: visible;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .contact-grid-item span {
-    white-space: nowrap;
+    white-space: normal;
     display: inline-flex;
     align-items: center;
     gap: 6px;
     overflow: visible;
+    word-break: break-word;
+    flex-wrap: wrap;
 }
 
 .contact-grid-item span i {
@@ -106,10 +112,10 @@ a {
 }
 
 .contact-grid-item a {
-    white-space: nowrap;
-    word-break: keep-all;
+    word-break: break-word;
+    overflow-wrap: break-word;
     display: inline;
-    overflow: visible;
+    max-width: 100%;
 }
 
 /* Specific styling for email item to prevent wrapping */
@@ -153,9 +159,9 @@ a {
 }
 
 .contact-row-no-wrap {
-    flex-wrap: nowrap !important;
-    white-space: nowrap;
-    overflow-x: auto;
+    flex-wrap: wrap !important;
+    gap: 10px;
+    overflow-x: visible;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -177,8 +183,10 @@ a {
     color: #0066cc;
     text-decoration: underline;
     font-size: 13px;
-    word-break: break-all;
+    word-break: break-word;
     overflow-wrap: break-word;
+    max-width: 100%;
+    display: inline-block;
 }
 
 .contact-row a:hover {
@@ -187,13 +195,16 @@ a {
 }
 
 .contact-row-no-wrap span {
-    white-space: nowrap !important;
+    white-space: normal !important;
+    word-break: break-word;
 }
 
 .contact-row-no-wrap a {
-    white-space: nowrap !important;
-    word-break: keep-all !important;
-    overflow-wrap: normal !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 100%;
+    display: inline-block;
 }
 
 .contact-link {
