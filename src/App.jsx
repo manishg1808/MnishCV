@@ -173,11 +173,11 @@ function App() {
             <span>
               <i className="ri-github-line"></i> GitHub:{" "}
               <a
-                href="https://github.com/manishg1808/MnishCV"
+                href="https://github.com/manishg1808/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://github.com/manishg1808/MnishCV
+                https://github.com/manishg1808/
               </a>
             </span>
           </div>
@@ -246,13 +246,13 @@ function App() {
           <div className="experience-item">
             <div className="exp-header">
               <h4>Web Development Intern: –</h4>
-              <span className="exp-location">present- on-site.</span>
+              <span className="exp-location"> on-site.</span>
             </div>
             <div className="exp-company">
               <span>
                 <strong>Mindware Technology.</strong>
               </span>
-              <span className="exp-date-right">July2025 - ……</span>
+              <span className="exp-date-right">June 2025 - December 2025</span>
             </div>
             <ul>
               <li>
@@ -270,113 +270,167 @@ function App() {
                 and improve functionality on the company's main website
               </li>
               <li>
-                Developed a{" "}
-                <strong>
+                <span className="li-content">
+                  Developed a{" "}
+                  <strong>
+                    <a
+                      href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_internship-webdevelopment-reactjs-activity-7372958751978487808-hEaP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "#0066cc", textDecoration: "none" }}
+                    >
+                      🔗user panel
+                    </a>
+                  </strong>{" "}
+                  for another project using React.js, Node.js, and PostgreSQL.
+                </span>
+                <span className="li-links">
+                  (
                   <a
-                    href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_internship-webdevelopment-reactjs-activity-7372958751978487808-hEaP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
+                    href="https://tagsindia.com/user/orders"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "none" }}
+                    className="highlight-text"
                   >
-                    🔗user panel{" "}
+                    <strong>Live</strong>
                   </a>
-                </strong>{" "}
-                for another project using React.js, Node.js, and PostgreSQL (
-                <a
-                  href="https://tagsindia.com/user/orders"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="highlight-text"
-                >
-                  <strong>Live</strong>
-                </a>
-                )
+                  ).
+                </span>
               </li>
               <li>
-                Contributed to the frontend development of a separate website,
-                creating pages like{" "}
-                <strong>
+                <span className="li-content">
+                  Contributed to the frontend development of a separate website,
+                  creating pages like{" "}
+                  <strong>
+                    <a
+                      href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_internshipexperience-frontenddevelopment-activity-7372967059653115904-J3mf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "#0066cc", textDecoration: "none" }}
+                    >
+                      🔗Certificate, About Us, and Contact Us
+                    </a>
+                  </strong>
+                  , including designing and implementing their functionality.
+                </span>
+                <span className="li-links">
+                  (
                   <a
                     href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_internshipexperience-frontenddevelopment-activity-7372967059653115904-J3mf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "none" }}
+                    className="highlight-text"
                   >
-                    🔗Certificate, About Us, and Contact Us
+                    <strong>Link</strong>
                   </a>
-                </strong>
-                , including designing and implementing their functionality (
-                <a
-                  href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_internshipexperience-frontenddevelopment-activity-7372967059653115904-J3mf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="highlight-text"
-                >
-                  <strong>Link</strong>
-                </a>
-                )
+                  ).
+                </span>
               </li>
               <li>
-                Designed and developed the complete{" "}
-                <strong>
+                <span className="li-content">
+                  Designed and developed the complete{" "}
+                  <strong>
+                    <a
+                      href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_frontenddeveloper-fullstackdevelopment-professionalgrowth-activity-7387092006675595264-6aJr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "#0066cc", textDecoration: "none" }}
+                    >
+                      🔗frontend of a new website
+                    </a>
+                  </strong>{" "}
+                  and also created the <strong>UI</strong> for its{" "}
+                  <strong>
+                    <a
+                      href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_fullstackdeveloper-adminpanel-frontend-activity-7387103117559005184-ATsY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "#0066cc", textDecoration: "none" }}
+                    >
+                      🔗admin panel
+                    </a>
+                  </strong>.
+                </span>
+                <span className="li-links">
+                  (
                   <a
-                    href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_frontenddeveloper-fullstackdevelopment-professionalgrowth-activity-7387092006675595264-6aJr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
+                    href="https://zebraprintersindia.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "none" }}
+                    className="highlight-text"
                   >
-                    🔗frontend of a new website
+                    <strong>Live</strong>
                   </a>
-                </strong>{" "}
-                and also created the <strong>UI</strong> for its{" "}
-                <strong>
-                  <a
-                    href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_fullstackdeveloper-adminpanel-frontend-activity-7387103117559005184-ATsY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "none" }}
-                  >
-                    🔗admin panel
-                  </a>
-                </strong>{" "}
-                (
-                <a
-                  href="https://zebraprintersindia.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="highlight-text"
-                >
-                  <strong>Live</strong>
-                </a>
-                )
+                  ).
+                </span>
               </li>
               <li>
-                Worked on another website handling both{" "}
-                <strong>
+                <span className="li-content">
+                  Worked on another website handling both{" "}
+                  <strong>
+                    <a
+                      href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_ecommerce-fullstackdevelopment-reactjs-activity-7387129445314187264-cJgX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "#0066cc", textDecoration: "none" }}
+                    >
+                      🔗frontend, backend & Admin Panel
+                    </a>
+                  </strong>{" "}
+                  development, including <strong>design</strong>, development, and
+                  creating and managing all <strong>product data</strong>.
+                </span>
+                <span className="li-links">
+                  (
                   <a
-                    href="https://www.linkedin.com/posts/er-mnish-kumar-8227572b8_ecommerce-fullstackdevelopment-reactjs-activity-7387129445314187264-cJgX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExJHNoBgM-5ayC_pEmtkfalTu5r_ac0gE4"
+                    href="https://godexprinterindia.in/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: "#0066cc", textDecoration: "none" }}
+                    className="highlight-text"
                   >
-                    🔗frontend, backend & Admin Panel
+                    <strong>Live</strong>
                   </a>
-                </strong>{" "}
-                development, including <strong>design</strong>, development, and
-                creating and managing all <strong>product data</strong> (
-                <a
-                  href="https://godexprinterindia.in/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="highlight-text"
-                >
-                  <strong>Live</strong>
-                </a>
-                )
+                  ).
+                </span>
               </li>
               <li>
                 Analyzed Big Data across all websites and also took on HR
                 responsibilities
+              </li>
+              <li>
+                <span className="li-content">
+                  Then I worked on WordPress and developed a few website.
+                </span>
+                <span className="li-links">
+                  (
+                  <a
+                    href="https://www.tscprintersindia.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="highlight-text"
+                  >
+                    <strong>Live</strong>
+                  </a>
+                  ) (
+                  <a
+                    href="https://thermaltransferribbons.tscprinters.co.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="highlight-text"
+                  >
+                    <strong>Live</strong>
+                  </a>
+                  ) (
+                  <a
+                    href="https://www.thermaltransferribbons.mindwareindia.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="highlight-text"
+                  >
+                    <strong>Live</strong>
+                  </a>
+                  ).
+                </span>
               </li>
             </ul>
           </div>
@@ -438,7 +492,23 @@ function App() {
             </div>
             <div className="exp-company">
               <span>
-                <strong>QSpider's Training & Testing Center.</strong>
+                <strong>QSpider's Training & Testing Center.</strong>{" "}
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "red", fontWeight: "bold", textDecoration: "none" }}
+                >
+                  (Live)
+                </a>{" "}
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "red", fontWeight: "bold", textDecoration: "none" }}
+                >
+                  (Live)
+                </a>
               </span>
               <span className="exp-date-right">
                 15-july-2024 – 31-Aug-2024.
@@ -603,16 +673,26 @@ function App() {
           <div className="project-item">
             <p className="project-name-bullet">
               ✨ <strong>Project Name – PASSWORD GENERATOR.</strong>{" "}
-              <a
-                href="https://github.com/manishg1808/password-generater"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link-right"
-              >
-                (Link GitHub)
-              </a>
+              <span className="link-right">
+                <a
+                  href="https://password-generator-alpha-two-91.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'red', fontWeight: 'bold', textDecoration: 'none' }}
+                >
+                  (Live)
+                </a>{" "}
+                <a
+                  href="https://psswrd-p-g.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'red', fontWeight: 'bold', textDecoration: 'none' }}
+                >
+                  (Live)
+                </a>
+              </span>
             </p>
-            <p className="details-subheading">➤ Details:- <a href="https://password-generator-alpha-two-91.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'red', fontWeight: 'bold', textDecoration: 'none' }}>(Live)</a></p>
+            <p className="details-subheading">➤ Details:-</p>
             <p className="project-details">
               This project is a simple password generator built using html, CSS,
               and JavaScript. It allows users to generate secure passwords of a
@@ -705,7 +785,7 @@ function App() {
               </svg>
             </a>
             <a
-              href="https://github.com/manishg1808/MnishCV"
+              href="https://github.com/manishg1808/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
@@ -892,6 +972,36 @@ function App() {
                       <span className="project-url">tagsindia.com/user/orders</span>
                       <span className="project-arrow">→</span>
                     </a>
+                    <a 
+                      href="https://www.tscprintersindia.com/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="project-link"
+                    >
+                      <span className="project-name">TSC Printers India</span>
+                      <span className="project-url">tscprintersindia.com</span>
+                      <span className="project-arrow">→</span>
+                    </a>
+                    <a 
+                      href="https://thermaltransferribbons.tscprinters.co.in/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="project-link"
+                    >
+                      <span className="project-name">TSC Thermal Transfer Ribbons</span>
+                      <span className="project-url">thermaltransferribbons.tscprinters.co.in</span>
+                      <span className="project-arrow">→</span>
+                    </a>
+                    <a 
+                      href="https://www.thermaltransferribbons.mindwareindia.com/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="project-link"
+                    >
+                      <span className="project-name">Mindware Thermal Transfer Ribbons</span>
+                      <span className="project-url">thermaltransferribbons.mindwareindia.com</span>
+                      <span className="project-arrow">→</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1008,6 +1118,22 @@ function App() {
                     </svg>
                   </span>
                   <span className="service-text">SEO</span>
+                </div>
+                <div className="service-item">
+                  <span className="service-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                    </svg>
+                  </span>
+                  <span className="service-text">Landing Page</span>
+                </div>
+                <div className="service-item">
+                  <span className="service-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                    </svg>
+                  </span>
+                  <span className="service-text">Website Maintenance</span>
                 </div>
               </div>
             </div>

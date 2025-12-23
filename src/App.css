@@ -433,6 +433,9 @@ a {
 
 .experience-item ul {
     margin-left: 20px;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 20px;
 }
 
 .experience-item li {
@@ -440,6 +443,40 @@ a {
     line-height: 1.5;
     font-size: 14px;
     text-align: justify;
+    list-style-type: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+.experience-item li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.experience-item li:has(.li-links) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.experience-item li:has(.li-links)::before {
+    position: absolute;
+    left: 0;
+    flex-shrink: 0;
+}
+
+.experience-item li .li-content {
+    flex: 1;
+    text-align: justify;
+}
+
+.experience-item li .li-links {
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 .exp-header {
