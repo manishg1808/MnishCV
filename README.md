@@ -1,202 +1,93 @@
-# Manish Kumar - Online Resume/CV
+# ManishCV - Dynamic Personal Portfolio
 
-A professional, responsive online resume built with React and Vite, featuring a modern design with smooth animations and complete mobile responsiveness.
+Welcome to **ManishCV**, my dynamic personal portfolio website built to showcase my journey, skills, and the projects I've worked on. This project represents a comprehensive overview of my professional growth, from learning the basics of web development to completing internships and developing complex full-stack applications.
 
-## 🎯 Features
+## 🌟 Project Journey
 
-### Core Features
-- **Fully Responsive Design** - Optimized for all devices (Desktop, Tablet, Mobile)
-- **Dark Mode Toggle** - Switch between light and dark themes with smooth transitions
-- **Animated Loader** - Custom styled loader with gradient animations on page load
-- **Clean & Modern UI** - Professional layout with smooth transitions and hover effects
-- **Mobile Contact Toggle** - Hamburger menu for easy access to contact information on mobile devices
+My journey with this portfolio website has been continuous evolution:
 
-### Interactive Modals
-- **About Me Modal** - Personal introduction and background information
-- **Contact Modal** - Contact form with WhatsApp integration for direct messaging
-- **Service Modal** - Complete list of web development services offered
-- **Projects Modal** - Categorized showcase of personal and client projects (10+ projects)
-- **Portfolio Modal** - Information about ongoing portfolio development
-
-### Integration Features
-- **WhatsApp Integration** - Contact form submissions directly open WhatsApp with formatted message
-- **Social Media Links** - Direct links to LinkedIn, GitHub, WhatsApp, Email, Instagram, and Facebook
-- **Portfolio Section** - Clickable portfolio item in contact information
-- **Projects Showcase** - "View" button to explore all completed projects in organized categories
-
-### Responsive Breakpoints
-- Large Desktop (>1200px)
-- Desktop (1025-1200px)
-- Tablet Large (969-1024px)
-- Tablet (769-968px)
-- Tablet Small (601-768px)
-- Mobile Large (481-600px)
-- Mobile (321-480px)
-- Mobile Small (<320px)
+1.  **The Beginning:** It started as a way to practice the foundational technologies I learned during my early internships—HTML, CSS, and basic JavaScript.
+2.  **Adding Interactivity:** As I upskilled into React.js and modern frontend frameworks, I rebuilt the portfolio to be a Single Page Application (SPA), making it faster and more dynamic.
+3.  **Showcasing Real Work:** With every new internship (like Unified Mentor, EduNet Foundation, and EduSkills Academy) and client project (from static informational sites to full-stack e-commerce platforms), I expanded the "Experience" and "Projects" sections.
+4.  **UI/UX Refinements:** I constantly iterated on the design, adding features like a Dark Mode toggle, smooth scrolling, interactive modals for viewing projects, and professional table layouts for data presentation.
+5.  **The Result:** Today, this portfolio stands as a testament to my dedication to clean code, responsive design, and continuous learning.
 
 ## 🚀 Technologies Used
 
-- **React 19.1.1** - Modern UI library with hooks (useState, useEffect)
-- **Vite 7.1.2** - Fast build tool and dev server
-- **Styled Components 6.1.19** - CSS-in-JS for component styling (Loader component)
-- **CSS3** - Advanced styling with flexbox, grid, and media queries
-- **React Icons (RemixIcon)** - Icon library for UI elements
-- **Responsive Design** - Mobile-first approach with comprehensive breakpoints
+*   **Frontend Framework:** React.js (^19)
+*   **Build Tool:** Vite
+*   **Styling:** Vanilla CSS (with responsive design & Dark Mode support)
+*   **Icons/Graphics:** Inline SVGs
+*   **Deployment:** Vercel (recommended)
 
-## 📋 Resume Sections
+## 📊 Application Architecture & Flow
 
-- **Header** - Name, title, and contact information with mobile toggle
-- **Personal Information & Contact Details** - Phone, WhatsApp, Email, Location, Social Links
-- **Career Objective** - Professional goals and aspirations
-- **Academic Qualifications** - Graduation, Intermediate, and Matriculation details
-- **Work Experience** - Multiple internships (Mindware Technology, Unified Mentor, EduNet Foundation, QSpider)
-- **Technical Skills** - Programming languages, frameworks, databases, and tools
-- **Certifications** - All professional certifications with verification links
-- **Academic Projects** - Detailed project descriptions with live links
-- **Personal Strengths** - Key personality traits
-- **Hobby** - Personal interests
-- **Self-Assessment** - Professional declaration
-- **Footer** - About, Service, Contact buttons with social media links
+Here is a high-level flowchart illustrating the structure and user flow of the portfolio:
 
-## 🛠️ Installation & Usage
+```mermaid
+graph TD
+    A[User Visits Website] --> B(Main Application - App.jsx)
+    
+    B --> C{Navigation Header}
+    B --> D[Hero Section]
+    B --> E[About Me]
+    B --> F[Experience]
+    B --> G[Technical Skills]
+    B --> H[Certifications]
+    B --> I[Academic Projects]
+    B --> J[Footer]
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+    %% Header Interactions
+    C -->|Click Home| D
+    C -->|Click About| E
+    C -->|Click Services| K[Services Modal]
+    C -->|Click Portfolio| L[Projects Modal]
+    C -->|Click Contact| M[Contact Modal]
+    C -->|Toggle Theme| N((Dark/Light Mode))
 
-### Setup
+    %% Modal Details
+    K -.-> O[List of Web Dev Services]
+    L -.-> P[Professional Table Layout]
+    P --> P1(Personal Projects)
+    P --> P2(Client Projects)
+    M -.-> Q[Contact Form]
+    Q -->|Submit| R[WhatsApp Redirection]
 
-1. Clone the repository:
-```bash
-git clone https://github.com/manishg1808/MnishCV
-cd ManishCV
+    %% Styling Theme
+    N -.->|Updates UI| B
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style N fill:#ff9,stroke:#333,stroke-width:2px
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+## ✨ Key Features
 
-3. Run the development server:
-```bash
-npm run dev
-```
+- **Responsive Design:** Looks great on desktop, tablet, and mobile devices.
+- **Dark/Light Mode:** Seamless theme switching with persistent user preference (if implemented) or default state.
+- **Interactive Modals:** Clean, pop-up interfaces for viewing Services, detailed Project lists, and a Contact form.
+- **Direct Communication:** The contact form intelligently formats the user's message and redirects directly to WhatsApp for instant communication.
+- **Professional Data Display:** Projects are organized in a clean, easily scannable table format, separating Personal and Client work.
 
-4. Build for production:
-```bash
-npm run build
-```
+## 🛠️ How to Run Locally
 
-5. Preview production build:
-```bash
-npm run preview
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/manishg1808/MnishCV.git
+   ```
+2. **Navigate to the directory:**
+   ```bash
+   cd MnishCV
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-## 📱 Responsive Features
+## 📬 Contact
 
-### Mobile Optimization
-- Touch-friendly interactive elements
-- Proper text wrapping for long links
-- Optimized font sizes for readability
-- Vertical stacking of contact information
-- No horizontal scrolling on any device
-
-### Desktop Experience
-- Centered content layout with max-width
-- Optimal typography and spacing
-- Hover effects on links
-- Professional presentation
-
-### Tablet Support
-- Adaptive layout adjustments
-- Flexible contact information display
-- Optimized spacing and margins
-
-## 📝 Recent Updates & Implemented Features
-
-### Latest Improvements (2024-2025)
-- **Dark Mode Feature**: Complete dark/light theme toggle with smooth transitions
-- **Animated Loader**: Custom gradient loader with jumping circle animations
-- **Modal System**: Implemented 5 interactive modals (About, Contact, Service, Projects, Portfolio)
-- **WhatsApp Integration**: Contact form directly opens WhatsApp with formatted message
-- **Mobile Navigation**: Hamburger menu for mobile contact information toggle
-- **Projects Showcase**: Categorized project display (Personal & Client projects) in modal
-- **Service Listing**: Complete service offerings displayed in organized modal
-- **Social Media Integration**: Direct links to all social profiles (LinkedIn, GitHub, WhatsApp, Email, Instagram, Facebook)
-- **Portfolio Section**: Clickable portfolio item with modal information
-- **Enhanced Responsive Design**: Added comprehensive breakpoints for all screen sizes
-- **Mobile-First Approach**: Optimized layout for mobile devices
-- **Improved Typography**: Better font sizing across all devices
-- **Contact Section**: Responsive contact information layout with grid system
-- **Link Handling**: Smart word-break for long URLs
-- **Touch Optimization**: Enhanced touch targets for mobile devices
-- **Overflow Prevention**: Fixed horizontal scrolling issues
-- **Print Styles**: Added print media queries for document printing
-- **State Management**: React hooks for managing modal states and form data
-- **Form Validation**: Contact form with required field validation
-
-## 🎨 Design Principles
-
-- **User Experience**: Intuitive navigation with modals and interactive elements
-- **Accessibility**: Proper semantic HTML, ARIA labels, and readable typography
-- **Performance**: Lightweight and fast loading with optimized animations
-- **Modern UI/UX**: Smooth transitions, hover effects, and professional presentation
-- **Mobile-First**: Designed with mobile users as priority
-- **Dark Mode Support**: Complete theme switching capability
-
-## 🔧 Technical Implementation
-
-### Project Structure
-```
-ManishCV/
-├── src/
-│   ├── App.jsx              # Main application component
-│   ├── App.css              # Main stylesheet
-│   ├── main.jsx             # Application entry point
-│   ├── index.css            # Global styles
-│   ├── components/
-│   │   ├── Loader.jsx       # Animated loader component
-│   │   └── CV/
-│   │       ├── Header.jsx   # Header component (available)
-│   │       ├── Education.jsx # Education component (available)
-│   │       └── Contact.jsx  # Contact component (available)
-│   └── assets/
-│       └── favicon.png      # Site favicon
-├── package.json             # Dependencies and scripts
-├── README.md               # Project documentation
-└── index.html              # HTML entry point
-```
-
-### Components Structure
-- **App.jsx** - Main application component with all sections and modals (1230 lines)
-- **Loader.jsx** - Custom animated loader using styled-components with gradient animations
-- **CV Components** - Modular components for Header, Education, Contact (available but integrated in App.jsx)
-
-### State Management
-- React Hooks (useState) for modal visibility states (5 modals)
-- Form state management for contact form (name, email, phone, message)
-- Dark mode state with body class toggling
-- Contact toggle state for mobile menu
-- Loading state for initial page load
-
-### Key Functionalities
-- **Contact Form**: Validates required fields and submits to WhatsApp with formatted message
-- **Modal System**: Click outside overlay to close, close button support
-- **Theme Switching**: Dark mode toggle with body class management and smooth transitions
-- **Responsive Navigation**: Mobile hamburger menu for contact information toggle
-- **Project Categorization**: Personal and Client projects displayed in separate sections
-- **Social Media Integration**: Footer with 6 social media platform links
-- **WhatsApp Direct**: Contact form opens WhatsApp Web/App with pre-filled message
-- **Animated Loader**: 2-second animated loader on page initialization
-
-## 📄 License
-
-This project is for personal/portfolio use.
-
----
-
-**Developed by**: Manish Kumar  
-**Contact**: mnishg49@gmail.com  
-**LinkedIn**: [Profile](https://www.linkedin.com/in/er-mnish-kumar-8227572b8/)  
-**GitHub**: [Profile](https://github.com/manishg1808/MnishCV)
-
+Feel free to reach out through the contact form on the website or directly via the social links provided in the footer!
